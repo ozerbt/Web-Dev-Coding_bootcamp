@@ -1,0 +1,39 @@
+#container{
+    background-color: blueviolet;
+    height: 205px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* flex-wrap:wrap; */
+}
+#container div{
+    height: 200px;
+    flex-basis: 600px;
+    width: 200px;
+}
+
+div:nth-of-type(1){
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+div:nth-of-type(5){
+    flex-grow: 2;
+    flex-shrink:0;
+}
+main{
+    border: 5px solid black;
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+}
+main .sidebar{
+    background-color: #6930c3;
+    flex: 1 2 250px;
+    border: 2px solid white;
+}
+main .maincontent{
+    flex: 2 1 800px;
+    background-color: #15bd6e;
+}
+

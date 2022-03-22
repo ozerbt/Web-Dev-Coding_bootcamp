@@ -1,0 +1,8 @@
+.lead:first-letter{
+    font-weight: 700;
+}
+.badge2{
+    background-color: rgb(53, 235, 53);
+    padding: -30px 0 0 0;
+    display:inline-block;
+}

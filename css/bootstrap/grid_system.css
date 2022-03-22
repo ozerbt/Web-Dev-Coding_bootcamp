@@ -1,0 +1,23 @@
+.flexbox-example div{
+    background-color:green;
+    max-width:600px;
+    border-bottom: 1px solid black;
+    height: 200px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.flexbox-example{
+    background-color: purple;
+    display:flex;
+    justify-content: space-between
+}
+@media (max-width: 400px){
+    .flexbox-example{
+        flex-direction: column;
+    }
+}
+/* #first-image{
+    max-height:14.8125em;
+    min-width: 22.25em;
+} */
+

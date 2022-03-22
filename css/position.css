@@ -1,0 +1,23 @@
+div{
+    width: 100px;
+    height:100px;
+    background-color: magenta;
+    display: inline-block;
+    margin:10px;
+}
+#static{
+    position:static;
+}
+#relative{
+    position:relative;
+    top:100px;
+    left:75px;
+}
+#absolute{
+    position:absolute;
+}
+#fixed{
+    position:fixed;
+    top:0px;
+    left:0px;
+}

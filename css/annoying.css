@@ -1,0 +1,34 @@
+div{
+    height: 100vh;
+    background-color: rgb(97, 153, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap:wrap;
+    overflow: hidden;
+}
+#click_me{
+    padding: 10px;
+    border: none;
+    background-color: rgb(182, 117, 168);
+    color: white;
+    position: relative;
+    transition: background-color 0.4s, box-shadow 0.4s, transform 0.4s ease-in;
+    animation-name: slidein;
+    animation-duration: 2s;
+    border-radius: 5px;
+}
+#click_me:hover{
+    background-color: rgb(195, 0, 255);
+    box-shadow: -1px 0px 3px rgb(195, 0, 255);
+    transform: translateY(-3px);
+}
+@keyframes slidein{
+    from{
+        left: 100%
+    }
+    to{
+        left: 0%;
+    }
+}

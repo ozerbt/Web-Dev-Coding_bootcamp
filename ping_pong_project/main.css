@@ -1,0 +1,40 @@
+html,body{
+    height:100%;
+}
+
+#main-div{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    border: 1px solid black;
+    padding: 0.7rem;
+    margin-top: 0.7rem;
+    background-color: rgb(115, 189, 115);
+    box-shadow: 1px 0px 10px black;
+    margin-right: 0.4rem;
+}
+.button:hover{
+    background-color: rgba(160, 160, 160, 0.74);
+    cursor:pointer;
+}
+
+#player2_button{
+    background-color:rgb(115, 115, 245)
+}
+
+#reset_score{
+    background-color:red;
+    color:#ffffff
+}
+
+.loser{
+    color: red;
+}
+.winner{
+    color:green;
+}
+

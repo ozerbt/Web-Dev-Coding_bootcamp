@@ -1,0 +1,54 @@
+
+button{
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+button:hover{
+    background-color: #e63946;
+    color:white;
+}
+button:active{
+    background-color: # 02c39a;
+}
+
+h1, h2{
+    color: #1d1d1d;
+}
+body{
+    background-color: #ffd6a5;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+#signup{
+    background-color: blue
+}
+input[type="password"]{
+    color:greenyellow;
+}
+
+h1::first-letter{
+    font-size: 20px;
+}
+p::first-line{
+    color:purple;
+}
+p::selection{
+    background-color: #fcbf79;
+    color:white;
+}
+
+section[class="post"]{
+    background-color: purple;
+}
+button:hover{
+    background-color: olive;
+}
+/* attribute selectors can select html elements based on a specific attribute ex. input[type="password] or a[href="google"]
+    descendant selectors are used to select a child within the element for example an anchor tag within a footer would be "footer a"
+    adjacent selectors are used to select the elemnt right below the other element for example h1 + button would mean they are in the same hierartchy but one below is the button
+    direct child selectors select the direct child of an element using ">" for example*/
